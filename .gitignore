@@ -2,6 +2,7 @@
 [Bb]in/
 [Oo]bj/
 [Oo]ut/
+published/
 
 # cache for misc downloads
 artifacts/
@@ -27,3 +28,6 @@ artifacts/
 
 # ImageBuilder directory
 .Microsoft.DotNet.ImageBuilder
+
+# mac 
+.DS_Store

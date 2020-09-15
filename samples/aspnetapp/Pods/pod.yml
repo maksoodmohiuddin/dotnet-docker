@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dev-pod
+  labels:
+    app: aspnetweb
+spec:
+  containers:
+    - name: aspnetweb-container
+      image: magnolialabs/aspnetapp:latest
+      ports:
+        - containerPort: 5001
